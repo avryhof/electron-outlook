@@ -1,7 +1,7 @@
 const { BrowserWindow, shell } = require('electron')
 const CssInjector = require('../js/css-injector')
 
-const outlookUrl = 'https://outlook.live.com/mail'
+const outlookUrl = 'https://outlook.office.com/owa'
 
 class MailWindowController {
     constructor() {
@@ -15,7 +15,7 @@ class MailWindowController {
             y: 100,
             width: 1400,
             height: 900,
-            frame: false,
+            frame: true,
             autoHideMenuBar: true,
             show: false
         })
